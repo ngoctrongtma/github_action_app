@@ -1,5 +1,5 @@
 name: auto run unit test
-on: workflow_dispatch
+on: push
 jobs:
     test:
         runs-on: ubuntu-latest
